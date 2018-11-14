@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsFragment"
+    android:orientation="vertical"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="About Us"
+       android:textSize="30dp"
+       android:textColor="#000"
+       android:gravity="center"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are a small and quiet restaurant in the center of Buenos Aires, focused on pleasing our clients and representing the traditional Argentina and its meals. Since 1984."
+android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/tor"
+        />
+
+</LinearLayout>
